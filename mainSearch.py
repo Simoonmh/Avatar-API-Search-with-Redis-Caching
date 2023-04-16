@@ -172,7 +172,7 @@ characters = ['Aang', 'Zuko', 'Katara', 'Sokka', 'Toph', 'Iroh', 'Aang', 'Katara
 found_count = 0
 not_found_count = 0
 
-#Inicia el cronómetro
+#Start tiempo
 start_time = time.time()
 
 search_times = []
@@ -205,7 +205,7 @@ for character in characters:
 
     print(f'Tiempo de búsqueda para {character}: {search_time} segundos')
 
-#Para detener el cronómetro
+#Stop tiempo
 end_time = time.time()
 total_time = end_time - start_time
 
