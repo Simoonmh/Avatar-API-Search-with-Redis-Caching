@@ -1,5 +1,6 @@
-# Tarea-1-Sistemas-Distribuidos
-Sistema de cache distribuido con Redis  
+# Avatar API Search with Redis Caching
+A web application that harnesses a public API for Avatar: The Last Airbender characters and nations. 
+It features a robust character search functionality and optimizes performance with a Redis caching system. 
 
--mainSearch.py es el código principal del sistema.  
--search_noCache.py se utilizó para medir tiempo de consulta total sin utilizar Redis en el sistema
+-mainSearch.py is the main code for the system and uses Redis to manage cache.  
+-search_noCache.py was used to measure search time without Redis caching.
